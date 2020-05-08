@@ -2,7 +2,9 @@
 title: "Basic R Markdown"
 author: "Simon Jean"
 date: "5/8/2020"
-output: github_document 
+output: 
+  html_document: 
+  keep_md: true
 ---
 Hey there!!
 ```{r}
